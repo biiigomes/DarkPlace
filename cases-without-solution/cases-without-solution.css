@@ -1,0 +1,33 @@
+.cat-logo {
+    width: 80px;
+    height: 60px;
+}
+
+.title-size {
+    font-size: 2em;
+}
+
+.dark-red {
+    background-color: #3C0404 !important;
+}
+
+.change-width {
+    max-width: 900px;
+}
+
+.arvo {
+    font-family: 'Arvo', serif;
+}
+
+.background {
+    max-width: 900px;
+    width: auto;
+    margin: 0 auto;
+    padding: 40px 45px;
+    background-color: #3C0404 !important;
+}
+
+.cases-accordion {
+    min-height: 500px;
+    padding-bottom: 350px;
+}
