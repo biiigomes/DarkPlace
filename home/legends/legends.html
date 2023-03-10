@@ -24,8 +24,7 @@
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active text-white arvo pointer" aria-current="page">Inscrever-se</a>
-              <a class="nav-link active text-white arvo pointer" aria-current="page">Home</a>
+              <a class="nav-link active text-white arvo pointer" aria-current="page" onclick="goToHome()">Home</a>
               <a class="nav-link active text-white arvo pointer" aria-current="page" onclick="goToCasesWithoutSolution()">Casos sem solução</a>
             </div>
           </div>
@@ -49,16 +48,16 @@
                 </div>
     
                 <div class="list-group mt-3">
-                    <a class="list-group-item list-group-item-action arvo font-size bg-black text-white pointer" id="iron-witch" onclick="goToLegend()">
+                    <a class="list-group-item list-group-item-action arvo font-size bg-black text-white pointer" onclick="goToCompleteLegend('iron-witch')">
                         Bruxa de Ferro
                     </a>
-                    <a class="list-group-item list-group-item-action arvo font-size bg-black text-white pointer" id="yule-cat" onclick="goToLegend()">
+                    <a class="list-group-item list-group-item-action arvo font-size bg-black text-white pointer" onclick="goToCompleteLegend('yule-cat')">
                         O Gato de Yule
                     </a>
-                    <a class="list-group-item list-group-item-action arvo font-size bg-black text-white pointer" id="lent-dog" onclick="goToLegend()">
+                    <a class="list-group-item list-group-item-action arvo font-size bg-black text-white pointer" onclick="goToCompleteLegend('lent-dog')">
                         Cão da Quaresma
                     </a>
-                    <a class="list-group-item list-group-item-action arvo font-size bg-black text-white pointer" id="labatut" onclick="goToLegend()">
+                    <a class="list-group-item list-group-item-action arvo font-size bg-black text-white pointer" onclick="goToCompleteLegend('labatut')">
                         Labatut
                     </a>
                 </div>
