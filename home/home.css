@@ -2,7 +2,7 @@
     max-width: 900px;
     width: auto;
     margin: 0 auto;
-    padding: 40px 40px;
+    padding: 15px 15px;
     background-color: #3C0404 !important;
 }
 
@@ -16,12 +16,21 @@
     height: 400px;
 }  
 
+@media screen and (max-width: 740px) {
+    .carousel-image {
+        object-fit: cover;
+        width: 360px;
+        height: 250px;
+    }
+    
+}
+
 .card-size {
     font-weight: 700;
 }
 
 .card-background {
-    margin: 10px;
+    margin: 10px 5px;
     padding: 10px;
     width: 18rem;
 }
