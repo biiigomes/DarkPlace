@@ -1,5 +1,7 @@
 function goToHome() {
-    window.location.href = "../home/home.html"
+    console.log('passando')
+    window.location.href = "../../home/home.html"
+    
 }
 
 function goToLegends() {
