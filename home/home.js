@@ -5,3 +5,7 @@ function goToLegends() {
 function goToCasesWithoutSolution() {
     window.location.href = "cases-without-solution/cases-without-solution.html"
 }
+
+function goToScaryPage() {
+    window.location.href = "scary-page/scary-page.html"
+}

@@ -1,11 +1,11 @@
 function goToHome() {
-    window.location.href = "../../../../../home/home.html"
+    window.location.href = "../../home/home.html"
 }
 
 function goToLegends() {
-    window.location.href = "../../../../legends/legends.html"
+    window.location.href = "../legends/legends.html"
 }
 
 function goToCasesWithoutSolution() {
-    window.location.href = "../../../../cases-without-solution/cases-without-solution.html"
+    window.location.href = "../cases-without-solution/cases-without-solution.html"
 }
