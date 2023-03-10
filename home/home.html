@@ -34,7 +34,6 @@
       </header>
 
       <section class="bg-black d-flex justify-content-center">
-
         <div id="carouselExampleInterval" class="carousel slide change-width" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="3000">
@@ -56,7 +55,6 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-        
       </section>
 
       <section>
@@ -64,7 +62,7 @@
           <div class="dark-red background">
             <div class="row">
               <div class="card card-background bg-black col">
-                <img src="../img/bloody-hands.png" alt="" class="card-image">
+                <img src="../img/bloody-hands.png" alt="Mãos com sangue" class="card-image">
                 <p class="text-start text-white card-title arvo mt-1">
                   Lenda
                 </p>
@@ -74,7 +72,7 @@
                 </p>
               </div>
               <div class="card card-background bg-black col">
-                <img src="../img/witch.jpg" alt="" class="card-image">
+                <img src="../img/witch.jpg" alt="Um bruxo" class="card-image">
                 <p class="text-start text-white card-title arvo mt-1">
                   Lenda
                 </p>
@@ -83,7 +81,7 @@
                 </p>
               </div>
               <div class="card card-background bg-black col">
-                <img src="../img/dark-cat.png" alt="" class="card-image">
+                <img src="../img/dark-cat.png" alt="Um gato preto" class="card-image">
                 <p class="text-start text-white card-title arvo mt-1">
                   Lenda
                 </p>
@@ -94,7 +92,7 @@
             </div>
             <div class="row">
               <div class="card card-background bg-black col">
-                <img src="../img/rosa-negra.png" alt="" class="card-image">
+                <img src="../img/rosa-negra.png" alt="Uma rosa negra" class="card-image">
                 <p class="text-start text-white card-title arvo mt-1">
                   Casos sem solução
                 </p>
@@ -104,7 +102,7 @@
                 </p>
               </div>
               <div class="card card-background bg-black col">
-                <img src="../img/missing-person.jpeg" alt="" class="card-image">
+                <img src="../img/missing-person.jpeg" alt="Cartaz de pessoa desaparecida" class="card-image">
                 <p class="text-start text-white card-title arvo mt-1">
                   Casos sem solução
                 </p>
@@ -114,7 +112,7 @@
                 </p>
               </div>
               <div class="card card-background bg-black col">
-                <img src="../img/cemiterio.png" alt="" class="card-image">
+                <img src="../img/cemiterio.png" alt="Cemitério de noite" class="card-image">
                 <p class="text-start text-white card-title arvo mt-1">
                   Casos sem solução
                 </p>
@@ -127,6 +125,35 @@
           </div>
         </div>
       </section>
+
+      <section>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content bg-black text-white">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Bem vindo(a) à Dark Place</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Username</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn text-white" data-bs-dismiss="modal">Desisto</button>
+                <button type="button" class="btn dark-red text-white" onclick="scaryPage()">Ver mais histórias assustadoras</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>  
       
     <script src="home.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
