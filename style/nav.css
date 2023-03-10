@@ -10,3 +10,7 @@
 .dark-red {
     background-color: #3C0404 !important;
 }
+
+.pointer {
+    cursor: pointer;
+}
