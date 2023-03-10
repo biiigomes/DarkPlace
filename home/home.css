@@ -10,10 +10,6 @@
     max-width: 900px;
 }
 
-.arvo {
-    font-family: 'Arvo', serif;
-}
-
 .carousel-image {
     object-fit: cover;
     width: 900px;
