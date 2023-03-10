@@ -17,16 +17,16 @@
       <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary dark-red">
           <div class="container-fluid">
-            <img src="../img/black-cat.png" alt="" class="cat-logo">
+            <img src="../img/black-cat.png" alt="Sombra de um gato de pé" class="cat-logo">
             <a class="navbar-brand text-white arvo title-size">Dark Place</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <a class="nav-link active text-white arvo" aria-current="page" href="#">Inscrever-se</a>
-                <a class="nav-link active text-white arvo" aria-current="page" href="#" onclick="goToLegends()">Lendas</a>
-                <a class="nav-link active text-white arvo" aria-current="page" href="#" onclick="goToCasesWithoutSolution()">Casos sem solução</a>
+                <a class="nav-link active text-white arvo pointer" aria-current="page" data-bs-toggle="modal" data-bs-target="#exampleModal">Inscrever-se</a>
+                <a class="nav-link active text-white arvo pointer" aria-current="page" onclick="goToLegends()">Lendas</a>
+                <a class="nav-link active text-white arvo pointer" aria-current="page" onclick="goToCasesWithoutSolution()">Casos sem solução</a>
               </div>
             </div>
           </div>
@@ -35,23 +35,23 @@
 
       <section class="bg-black d-flex justify-content-center">
 
-        <div id="carouselExampleRide" class="carousel slide change-width" data-bs-ride="true">
+        <div id="carouselExampleInterval" class="carousel slide change-width" data-bs-ride="carousel">
           <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="../img/morcegos.png" class="carousel-image" alt="...">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img src="../img/morcegos.png" class="carousel-image" alt="Diversos morcegos">
             </div>
-            <div class="carousel-item active">
-              <img src="../img/seita.png" class="carousel-image" alt="...">
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="../img/seita.png" class="carousel-image" alt="Bruxaria">
             </div>
-            <div class="carousel-item active">
-              <img src="../img/old-house.png" class="carousel-image" alt="...">
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="../img/old-house.png" class="carousel-image" alt="Casa antiga com nevoa na frente">
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
-             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
