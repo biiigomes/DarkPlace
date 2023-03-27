@@ -14,9 +14,6 @@ function goToCompleteLegend(legend) {
         case "yule-cat":
             window.location.href = "complete-legends/pages/yule-cat/yule-cat.html";
         break;
-        case "lent-dog":
-            window.location.href = "complete-legends/pages/lent-dog/lent-dog.html";
-        break;
         default:
             window.location.href = "complete-legends/pages/labatut/labatut.html"
     }
