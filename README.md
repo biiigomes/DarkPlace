@@ -15,13 +15,13 @@
 
 - Você pode dar um git clone (url do projeto aqui) ou baixar no formato zip;
 - Ao abrir a página Home no Google, você irá se deparar com uma headbar com três itens:
-    - Ao clicar em Inscrever-se, você será direcionado para a página de Login, podendo utilizar os seguintes usuários e suas respectivas senhas para tal:
+    - Ao clicar em Inscrever-se, você será direcionado para a página de Login, podendo utilizar os seguintes usuários e suas respectivas senhas para tal: </br>
         "Admin", "Admin123" </br>
         "User", "User123" </br>
         "UsserEnxerido", "UsserEnxerido123";
-    - Ao clicar em lendas, você será direcionado para uma página onde há algumas delas:
+    - Ao clicar em lendas, você será direcionado para uma página onde há algumas delas: </br>
         Clique no título da lenda que deseja observar seja levado para a página de sua história; </br>
-    - Ao clicar em Casos sem Solução, você ainda não se deparará com as histórias, apenas com seus títulos:
+    - Ao clicar em Casos sem Solução, você ainda não se deparará com as histórias, apenas com seus títulos: </br>
         Clique no título e será aberto o texto informacional.</br>
 
 # Tecnologias utilizadas
