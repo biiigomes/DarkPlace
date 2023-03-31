@@ -11,7 +11,7 @@
 - `Funcionalidade 3`: Apresentar os casos sem solução que instigam pessoas de todo o mundo. 
 - `Funcionalidade 4`: Dar para as pessoas a chance de escrever no Blog de coisas sombrias e seus trabalhos serem apresentados nas páginas principais. 
 
-#Como utilizar
+# Como utilizar
 
 - Você pode dar um git clone (url do projeto aqui) ou baixar no formato zip;
 - Ao abrir a página Home no Google, você irá se deparar com uma headbar com três itens:
@@ -23,36 +23,6 @@
         Clique no título da lenda que deseja observar seja levado para a página de sua história;
     - Ao clicar em Casos sem Solução, você ainda não se deparará com as histórias, apenas com seus títulos:
         Clique no título e será aberto o texto informacional.
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
 
 # Tecnologias utilizadas
 
