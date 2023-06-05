@@ -1,0 +1,45 @@
+.background {
+    max-width: 900px;
+    width: auto;
+    margin: 0 auto;
+    padding: 15px 15px;
+    background-color: #3C0404 !important;
+}
+
+.change-width {
+    max-width: 900px;
+}
+
+.carousel-image {
+    object-fit: cover;
+    width: 900px;
+    height: 400px;
+}  
+
+.cards {
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    padding: 24px;
+    margin-top: 48px;
+    display: flow-root;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.type {
+    margin: 0px 7px;
+    font-weight: 700;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.title {
+    margin: 0px 7px;
+    text-align: center;
+}
+
+.text {
+    margin: 0px 7px;
+    text-align: start;
+}

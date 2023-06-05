@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Dark Place</title>
+
+    <!-- External uses -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="your-page.css" />
+    <link rel="stylesheet" href="../../style/nav.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary dark-red">
+        <div class="container-fluid">
+          <img
+            src="../../img/black-cat.png"
+            alt="Sombra de um gato de pé"
+            class="cat-logo"
+          />
+          <h1 class="navbar-brand text-white arvo title-size">Dark Place</h1>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav">
+              <a
+                class="nav-link active text-white arvo pointer"
+                aria-current="page"
+                onclick="goToLegends()"
+                >Lendas</a
+              >
+              <a
+                class="nav-link active text-white arvo pointer"
+                aria-current="page"
+                onclick="goToCasesWithoutSolution()"
+                >Casos sem solução</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="bg-black d-flex justify-content-center">
+      <div
+        id="carouselExampleInterval"
+        class="carousel slide change-width"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img
+              src="../../img/morcegos.png"
+              class="carousel-image"
+              alt="Diversos morcegos"
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img
+              src="../../img/seita.png"
+              class="carousel-image"
+              alt="Bruxaria"
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img
+              src="../../img/old-house.png"
+              class="carousel-image"
+              alt="Casa antiga com nevoa na frente"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section>
+      <div class="d-flex bg-black justify-content-center">
+        <div class="dark-red background">
+          <div class="column">
+            <div class="cards">
+              <span class="type">Lenda:</span>
+              <span class="title">Bruxa de Ferro</span>
+              <p class="text">
+                A Bruxa de Ferro se trata de uma lenda urbana conhecida entre
+                hospitais infantis e orfanatos.
+              </p>
+            </div>
+            <div class="cards">
+              <span class="type">Casos sem solução:</span>
+              <span class="title">Paulette Gebara</span>
+              <p class="text">
+                A lenda fala que a boneca é assombrada pela sua antiga dona,
+                Okiku, uma criança de três anos de idade que faleceu devido a
+                uma febre alta em 1919. O brinquedo teria sido presente do seu
+                irmão mais velho, Ekichi Suzuki, que havia comprado a boneca em
+                Sapporo apenas um ano antes da fatalidade.
+              </p>
+            </div>
+
+            <div class="cards">
+              <span class="type">Lenda:</span>
+              <span class="title">Labatut</span>
+              <p class="text">
+                A lenda conta que ele vive no fim do mundo e que ele percorre as
+                cidades durante a noite, com o intuito de saciar sua fome, que é
+                enorme.
+              </p>
+            </div>
+
+            <div class="cards">
+              <span class="type">Casos sem solução:</span>
+              <span class="title">Dália Negra</span>
+              <p class="text">
+                Okiku tinha uma boneca que vestia um quimono e ela era a
+                inseparável menina...
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="your-page.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -30,5 +30,5 @@ function goToCasesWithoutSolution() {
 }
 
 function goToScaryPage() {
-    window.location.href = "scary-page/scary-page.html"
+    window.location.href = "your-page/your-page.html"
 }
